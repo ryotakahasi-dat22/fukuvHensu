@@ -46,9 +46,9 @@ namespace fukuvHensu
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(180, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 89);
+            this.label1.Size = new System.Drawing.Size(194, 89);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "ラベル";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
@@ -57,7 +57,7 @@ namespace fukuvHensu
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 75);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "上より";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -67,7 +67,7 @@ namespace fukuvHensu
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 75);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "左より";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -77,7 +77,7 @@ namespace fukuvHensu
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 75);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "右より";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -87,7 +87,7 @@ namespace fukuvHensu
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 75);
             this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
+            this.button4.Text = "下より";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

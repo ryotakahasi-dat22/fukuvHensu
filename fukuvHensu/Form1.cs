@@ -40,30 +40,54 @@ namespace fukuvHensu
         {
             vx = 0;
             vy = -5;
+            timer1.Enabled = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             vx = -5;
             vy = 0;
+            timer1.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             vx = 5;
             vy = 0;
+            timer1.Enabled = true;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             vx = 0;
             vy = 5;
+            timer1.Enabled = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show ("高橋涼");
             timer1.Enabled = false;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timer5_Tick(object sender, EventArgs e)
+        {
+            
         }
     }
 }
